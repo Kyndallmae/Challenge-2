@@ -1,0 +1,119 @@
+* {
+box-sizing: border-box; 
+}
+
+/* Navigation tools*/
+.navigation {
+color: #e4c5a7;;
+background-color: #344126;
+border: 10px solid #6b724e;
+display: flex;
+justify-content: space-between;
+text-align: center;
+padding: 10px;
+box-sizing: border-box;
+margin: 0px;
+flex-direction: row;
+font-family: Helvetica, Serif, Arial, sans-serif;
+font-weight: bold;
+cursor: pointer;
+}
+
+.navigation a:hover {
+color: white;
+}
+
+/*everything under the .set, inhearits the elements*/
+.set {
+color: #923a21;
+background-color: #e4c5a7;
+border: 10px dotted #6b724e;
+margin: 10px;
+font-family: Helvetica, Serif, Arial, sans-serif;
+padding: 10px;
+margin: 10px;
+display:flex;
+text-align: center;
+}
+
+.header {
+margin: 10px; 
+text-align: center;  
+display: block; 
+}
+
+body {
+position: relative;
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+}
+
+.img {
+margin: 10px 10px; 
+background: white;
+display: flex;
+justify-content: space-between;
+padding: 5px;
+}
+
+.aboutme {
+display: flex;
+flex-direction: column;
+text-align: center;
+
+}
+
+.workexperience {
+display: block;
+text-align: center;
+}
+.contactinfo {
+text-align: center;
+display: block;
+}
+
+.imgdetails {
+color: #e4c5a7;;
+background-color: #344126;
+border: 10px solid #6b724e;
+display: block;
+justify-content: space-between;
+flex-direction: column;
+text-align: center;
+}
+
+/*does not inherit .set details*/
+.refimg {
+justify-content:space-evenly; 
+margin: 10px 10px;
+flex-direction: left;
+}
+
+.refimg a:hover {
+width: 400px, 270px;
+}
+
+/*for ipads and laptops*/
+@media screen and (max-width: 768px) {
+    .set {
+        color: #e4c5a7;
+        background-color: #923a21;
+        border: 10px dotted #f9b848;
+    }
+}
+
+/*for smart phones*/
+@media screen and (max-width: 576px){
+    .set {
+        background-color:#f9b848;
+        border: 10px dotted #923a21;
+        color: #6b724e;
+    }
+}
+
+
+
