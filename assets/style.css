@@ -19,10 +19,6 @@ font-weight: bold;
 cursor: pointer;
 }
 
-.navigation a:hover {
-color: white;
-}
-
 /*everything under the .set, inhearits the elements*/
 .set {
 color: #923a21;
@@ -94,7 +90,7 @@ flex-direction: left;
 }
 
 .refimg a:hover {
-width: 400px, 270px;
+box-shadow: 0px 0px 10px #444444;
 }
 
 /*for ipads and laptops*/
