@@ -19,6 +19,10 @@ font-weight: bold;
 cursor: pointer;
 }
 
+.navigation a:hover {
+color: white;
+}
+
 /*everything under the .set, inhearits the elements*/
 .set {
 color: #923a21;
